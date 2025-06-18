@@ -18,7 +18,7 @@ body{
 
 header{
     background-color: red;
-    color: rgb(255, 255, 255);
+    color: rgb(4, 0, 0);
     padding: 15px 15px 15px 15px;
     width: 100%;
     top: 0;
@@ -75,7 +75,7 @@ nav ul li a{
     align-items: flex-start;
     justify-content: center;
     padding-left: 30px;
-    color: #fff;
+    color: #ffffff;
     font-size: 1.3em;
     text-align:left;
     text-shadow: 2px 2px 5px #dfe0e5;
