@@ -49,7 +49,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: rgb(255, 255, 255);
+    color: rgb(3, 0, 0);
     text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ nav ul li a{
 }
 
 .banner{
-    background:url();
+    background:url(../img/jphcpt7yozp41.png);
     height: 400px;
     display: flex;
     flex-direction: column;
