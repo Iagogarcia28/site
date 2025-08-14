@@ -106,6 +106,7 @@ nav ul li a{
 
 .centro{
     text-align: center;
+    color: #f8f8f8;
 }
 .sobre-texto{
     flex: 1;
@@ -182,6 +183,7 @@ nav ul li a{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     text-align: center;
+    color: #fcfcfc;
     padding: 50px 0;
 }
 
@@ -219,6 +221,7 @@ nav ul li a{
 }
 .centraliza{
     text-align: center;
+    color: #f8f8f8;
 }
 
 .galeria{
@@ -241,4 +244,82 @@ nav ul li a{
 
 .galeria img:hover {
     transform: scale(1.03);
+}
+
+.modal {
+    background: #460101;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(156, 1, 1, 0.953);
+    margin: auto;
+    text-align: justify;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: #f8f8f8;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.modal {
+    margin-top: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal:target {
+    display: flex;
+}
+
+.modal-content {
+     max-height: 70vh;
+     overflow-y: auto;
+     background: #460101;
+     padding: 40px;
+     border-radius: 10px;
+     max-width: 600px;
+     text-align: justify;
+     box-shadow: 0 5px 20px rgb(214, 10, 10);
+}
+
+.modal-content h4{
+    margin-top: 2%;
+    font-size: 1.1rem;
+    color: #f8f8f8;
+    margin-bottom: 2%;
+}
+
+.listacard{
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.modal-content h3{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.4rem;
+    color: #f8f8f8;
+}
+
+.close.btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 8px 16px;
+    background: #ff0000;
+    color: hwb(0 2% 0%);
+    border-radius: 6px;
+    text-decoration: none;
 }
