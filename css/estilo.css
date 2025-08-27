@@ -89,6 +89,21 @@ nav ul li a{
     text-shadow: 2px 2px 5px #a30202;
 }
 
+.bannercontato{
+    background:url(../img/jphcpt7yozp41.png) no-repeat center/cover;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 60px;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-align:left;
+    text-shadow: 2px 2px 5px #a30202;
+}
+
 #sobre{
     padding: 35px;
     background-color: #000000;
