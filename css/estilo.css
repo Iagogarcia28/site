@@ -104,6 +104,21 @@ nav ul li a{
     text-shadow: 2px 2px 5px #a30202;
 }
 
+.bannertabela{
+    background:url(../img/jphcpt7yozp41.png) no-repeat center/cover;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 60px;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-align:left;
+    text-shadow: 2px 2px 5px #a30202;
+}
+
 #sobre{
     padding: 35px;
     background-color: #000000;
@@ -163,7 +178,7 @@ nav ul li a{
 .hex{
     width: 140px;
     height: 120px;
-    clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+    clip-path: polygon(50% 0%, 65% 32%, 100% 35%, 72% 55%, 82% 90%, 50% 70%, 18% 90%, 28% 55%, 0% 35%, 35% 32%);
     overflow: hidden;
     background-color: #f8f8f8;
     position: relative;
@@ -338,4 +353,51 @@ nav ul li a{
     color: red;
     border-radius: 6px;
     text-decoration: none;
+}
+
+.centralizado{
+    color: #f8f8f8;
+}
+
+.tabela-container{
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.tabela-container table{
+    min-width: 600px;
+}
+
+.tabela-confidant{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    background-color:#460101;
+    color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabela-confidant th,
+.tabela-confidant td{
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(193, 2, 2, 0.659);
+}
+
+.tabela-confidant thead{
+    background: #ff0000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tabela-confidant tbody tr:hover{
+    background-color: rgb(255, 0, 0);
+    transition: background-color 0.3s ease;
+}
+
+.tabela-confidant tbody tr:last-child td{
+    border-bottom: none;
 }
