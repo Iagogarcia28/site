@@ -37,8 +37,75 @@
                     <h1 class="centraliza">Contato</h1>
                     <form class="formulario-contato" action="https://formsubmit.co/iago.silva2807@gmail.com" method="post"></form>
                     <div class="grupo-form">
-                        <label for=""></label>
+                        <label for="Nome completo"></label>
+                        <input type="text" id="nome" name="nome" required>
                     </div>
+
+                     <div class="grupo-form">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                      </div>
+
+                      <div class="grupo-form">
+                        <label for="idade">Idade:</label>
+                        <input type="number" id="idade" name="idade" min="10" max="120">
+                      </div>
+
+                      <div class="grupo-form">
+                        <label for="data">Data da consulta:</label>
+                        <input type="date" id="data" name="data">
+                     </div>
+
+                     <div class="grupo-form">
+                        <label for="area">Qual Persona você mais gosta?</label>
+                        <select id="area" name="area">
+                          <option value="jf">Jack frost</option>
+                          <option value="ars">Arsene</option>
+                          <option value="stn">Satanael</option>
+                          <option value="loki">Loki</option>
+                        </select>
+                      </div>
+
+                      <div class="grupo-form">
+                        <label>Grau de interesse:</label>
+                        <input type="range" min="0" max="100" name="interesse">
+                      </div>
+
+                      <div class="grupo-form">
+                        <p><strong>Gênero:</strong></p>
+                        <label>
+                            <input type="radio" name="genero" value="feminino">
+                            Feminino
+                        </label>
+                        <label>
+                            <input type="radio" name="genero" value="masculino">
+                            Masculino
+                        </label>
+                        <label>
+                            <input type="radio" name="genero" value="outro">
+                            Outro
+                        </label>
+                      </div>
+
+                      <div class="grupo-form">
+                        <label>Quais dessas você já jogou?</label>
+                        <label>
+                          <input type="checkbox" name="ferramenta" value="P1">
+                          Persona 1
+                      </label>
+                      <label>
+                          <input type="checkbox" name="ferramenta" value="P2">
+                          Persona 2
+                      </label>
+                      <label>
+                          <input type="checkbox" name="ferramenta" value="P3">
+                          Persona 3
+                      </label>
+                      <label>
+                          <input type="checkbox" name="ferramenta" value="P4">
+                          Persona 4
+                      </label>
+                      </div>
                 </div>
             </section>
         </main>
